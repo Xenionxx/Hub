@@ -1,0 +1,120 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Başlık Bölümü */
+.Headers {
+    background-color: #ff7eb3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Headers p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Kayıt Formu */
+.body {
+    border: 2px solid #ff7eb3;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff5e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ff7eb3;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.registration-form input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7eb3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form input[type="button"]:hover {
+    background-color: #ff4b6e;
+}
+
+/* Soru Bölümü */
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.question p {
+    font-size: 24px;
+    color: #ff7eb3;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+}
+
+.question button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7eb3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.question button:hover {
+    background-color: #ff4b6e;
+}
+
+/* Sonuç Bölümü */
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+    text-shadow: 2px 2px 4px #000000;
+}

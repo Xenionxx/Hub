@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantik Kayıt Ekranı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Headers">
+        <p>Pls Login With Your Info</p>
+    </div>
+    <div class="body">
+        <form id="registration-form" class="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="İsim" required>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="Soyisim" required>         
+            <input type="button" value="Register" onclick="showQuestion()">
+        </form>
+    </div>
+    <div id="question" class="question" style="display: none;">
+        <p id="question-text"></p>
+        <button onclick="accept()">Evet</button>
+        <button id="no-button" onmouseover="moveNoButton()">Hayır</button>
+    </div>
+    <div id="result" class="result" style="display: none;">
+        <p>Hayırlı olsun!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
